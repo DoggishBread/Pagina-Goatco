@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Página</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Bienvenido a Goatco</h1>
+    <p>Ofrecemos cabras de la mejor calidad.</p>
+    <section id="catalogo">
+  <h2>Cabras en Venta</h2>
+  <div class="slider">
+    <button id="prevBtn">⟨</button>
+    <img id="slider-img" src="Imagenes/goat1.png" alt="Cabra en venta">
+    <button id="nextBtn">⟩</button>
+  </div>
+  <p id="etiqueta-descuento" class="descuento-tag">¡En descuento!</p>
+</section>
+
+  </header>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form id="formulario">
+      <input type="text" placeholder="Tu nombre" required />
+      <input type="email" placeholder="Tu correo" required />
+      <textarea placeholder="Tu mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Goatco. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

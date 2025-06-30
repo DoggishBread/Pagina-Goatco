@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header, #contacto, footer {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  color: #336633;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background: #336633;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px auto;
+  flex-wrap: wrap;
+}
+
+.slider img {
+  width: 300px;
+  max-width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.slider button {
+  font-size: 24px;
+  padding: 10px 15px;
+  cursor: pointer;
+  background: #336633;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.descuento-tag {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  color: red;
+  display: none;
+}
+
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  header, #contacto, footer {
+    padding: 15px;
+  }
+}
