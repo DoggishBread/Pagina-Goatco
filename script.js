@@ -1,13 +1,13 @@
 const imagenes = [
-  { src: "Imagenes/goat1.png", descuento: false },
+  { src: "Imagenes/goat1.jpg", descuento: false },
   { src: "Imagenes/goat2.png", descuento: false },
-  { src: "Imagenes/goat7.png", descuento: false },
+  { src: "Imagenes/goat7.jpg", descuento: false },
   { src: "Imagenes/goat6.png", descuento: false },
-  { src: "Imagenes/goat8.png", descuento: false },
+  { src: "Imagenes/goat8.jpg", descuento: false },
   { src: "Imagenes/goat9.png", descuento: false },
-  { src: "Imagenes/Slider1.png", descuento: true },
-  { src: "Imagenes/slider2.png", descuento: true },
-  { src: "Imagenes/slider3.png", descuento: true }
+  { src: "Imagenes/Slider1.jpg", descuento: true },
+  { src: "Imagenes/slider2.jpg", descuento: true },
+  { src: "Imagenes/slider3.jpg", descuento: true }
 ];
 
 let indice = 0;
